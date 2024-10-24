@@ -6,9 +6,12 @@ export default function Component() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 md:mt-[6rem] mt-10">
       <section id="about" className="mb-12">
-        <h1 className="text-5xl sm:text-6xl font-bold mb-6 sm:mb-8 text-center sm:text-left">
+        <h1 className="text-5xl sm:text-6xl font-bold mb-2 sm:mb-4 text-center sm:text-left">
           Shivam Sharma
         </h1>
+        <p className="text-xl sm:text-2xl text-gray-600 mb-8 text-center sm:text-left">
+          Coffee Addict
+        </p>
         <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
           <div className="w-full sm:w-1/3 order-1 sm:order-2 mb-6 sm:mb-0">
             <Image
@@ -25,7 +28,8 @@ export default function Component() {
               Institute of Technology with a passion for web development and
               software engineering. I have experience in various programming
               languages and frameworks, and I&apos;m always eager to learn and
-              apply new technologies.
+              apply new technologies. I love to explore new types of Speciality
+              Coffee.
             </p>
             <div className="flex space-x-4 justify-center sm:justify-start">
               <Link
@@ -57,29 +61,41 @@ export default function Component() {
       <nav className="mb-12">
         <ul className="flex flex-wrap justify-center space-x-2 sm:space-x-4 text-base sm:text-lg">
           <li>
-            <Link href="/experience" className="text-gray-600 text-xl p-1 hover:underline">
+            <Link
+              href="/experience"
+              className="text-gray-600 text-xl p-1 hover:underline"
+            >
               Experience
             </Link>
           </li>
           <li>
-            <Link href="/projects" className="text-gray-600 text-xl p-1 hover:underline">
+            <Link
+              href="/projects"
+              className="text-gray-600 text-xl p-1 hover:underline"
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/skills" className="text-gray-600 text-xl p-1 hover:underline">
+            <Link
+              href="/skills"
+              className="text-gray-600 text-xl p-1 hover:underline"
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link href="/education" className="text-gray-600 text-xl p-1 hover:underline">
+            <Link
+              href="/education"
+              className="text-gray-600 text-xl p-1 hover:underline"
+            >
               Education
             </Link>
           </li>
         </ul>
       </nav>
 
-      <footer className="text-center text-gray-600 text-xl p-1 text-xs sm:text-sm">
+      <footer className="text-center text-gray-600 p-1 text-xs sm:text-sm">
         <p>© 2024 Shivam Sharma. All Rights Reserved.</p>
       </footer>
     </div>

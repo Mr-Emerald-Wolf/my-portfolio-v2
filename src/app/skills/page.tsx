@@ -59,7 +59,7 @@ export default function Component() {
             <CardContent>
               <div className="flex flex-wrap gap-2">
                 {skillCategory.items.map((skill) => (
-                  <Badge key={skill} variant="secondary">
+                  <Badge key={skill} className="p-1" variant="secondary">
                     {skill}
                   </Badge>
                 ))}
